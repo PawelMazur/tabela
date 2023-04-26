@@ -1,0 +1,15 @@
+@media screen and (max-width: 992px) {
+  :host ::ng-deep .mat-column-type {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :host ::ng-deep .mat-column-description {
+    display: none;
+  }
+}
+
+:host ::ng-deep .wrapper {
+  height: 500px;
+}
